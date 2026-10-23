@@ -2,8 +2,27 @@
 
 /* Set custom variables here */
 
+:root {
+  --bs-body-bg: #F6F3ED;
+  --bs-primary: #2E483A;
+  --bs-primary-rgb: 46, 72,58;
+  --bs-light: #F6F3ED;
+  --bs-light-rgb: 246, 243, 237;
+}
 
+.btn-primary {
+  --bs-btn-color: #F6F3ED;
+  --bs-btn-bg: #2E483A;
+  --bs-btn-border-color: #2E483A;
 
+  --bs-btn-hover-color: #F6F3ED;
+  --bs-btn-hover-bg: #24392E;
+  --bs-btn-hover-border-color: #24392E;
+
+  --bs-btn-active-color: #F6F3ED;
+  --bs-btn-active-bg: #1E3026;
+  --bs-btn-active-border-color: #1E3026;
+}
 
 
 .navbar-brand {
